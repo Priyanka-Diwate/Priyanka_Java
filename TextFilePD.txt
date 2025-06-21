@@ -1,0 +1,85 @@
+
+How to create project on eclipse--
+
+Open eclipse >> go to file >> new >> project >> Go to java - select java project >> click next >> give the project name - It can be started with $, numbers etc.
+Spaces are not allowed in the name 
+
+==========================================================================
+(When we give project name it has identifiers
+Identifiers -also known as nomenclature
+= it is name of object or variable or name of method or class or package name , or a project name
+They can be letters , $ , _ etc  (spaces are not allowed)
+==========================================================================
+
+System is create with project name - having JRE and SRC inside it
+==========================================================================
+When new project is created it has -
+JRE system library - all the java related dependencies in jar format are created under this 
+(additional dependencies can be given as required)
+SRC- 
+Suppose our project is a country then-
+states under that are packages 
+cities under that are called classes
+(Project > package > classes) 
+==============================================================================
+
+Create new package for project 
+Right click on SRC >> new  
+Click on package >> create a package here >> give name (No space is allowed) >> click finish >> package is created under SRC 
+create one more package >> naming OOPsPrinciples >>
+
+
+now create a class 
+Package can have multiple classes 
+Right click on any package >> new >> Create class >> give name>> click finish 
+
+
+Main method is created for the project
+>> New screen is opened >> this shows the method created
+While creating class - we can check the box 'public static void main' - (this is syntax for mainMethod) so this comes by default
+OR
+as of now we can write 'main' and give CTR space and enter (this will also bring that same thing) = syntax with PSVM is created.
+
+
+Under PSVM access specifiers are used- 
+
+Private 
+OR
+protected 
+OR 
+static void main (string {} args) -->(This one is said to be default)
+==================================================================================
+Meaning of whole main method -
+Access specifiers :- 
+1. Private - scope within class
+2. Default - scope within package
+3. protected - scope within package by using inheritance with other packages
+4. public - scope with in 
+==================================================================================
+
+
+Under any method 
+when we use syso + ctrl +space - it will brig system.out.println(); (whatever you write in its paranthesis in double cot, that is title)
+
+
+We can have multiple methods into the project >>
+main method is method under which we specify which method need to be run.
+
+
+Statis method can be only called under main static method
+when we want to call non static method/variable into static - we need to create object 
+
+
+
+When we give variable into method and call it then it take variable from method itself (local variable)
+but if variable is not given into method and we call it then it will take from main method (global variable)
+
+========================================================
+Creating another class under same package 
+
+We can run other class method into 1st created class main method as well.
+
+Constructor - When we dont create construtor, system create a constructor itself 
+That cannot be seen but will be used while running , this is called as defualt constructor
+
+When class name and method name is seen same , then it is a constructor.
