@@ -1,5 +1,5 @@
 
-How to create project on eclipse--
+Who to create project on eclipse--
 
 Open eclipse >> go to file >> new >> project >> Go to java - select java project >> click next >> give the project name - It can be started with $, numbers etc.
 Spaces are not allowed in the name 
